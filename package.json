@@ -1,0 +1,32 @@
+{
+  "name": "yourlogo",
+  "version": "0.0.1",
+  "description": "First site with grunt",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt-cli": "^1.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chmielinho/kodilla.git"
+  },
+  "keywords": [
+    "Grunt"
+  ],
+  "author": "Mateusz Chmielarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chmielinho/kodilla/issues"
+  },
+  "homepage": "https://github.com/chmielinho/kodilla#readme"
+}

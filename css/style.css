@@ -324,9 +324,11 @@ header {
 .gallery .row .col-20 img {
   height: 100%;
   width: auto; }
+
 .gallery .row .col-40 img {
   height: auto;
   width: 100%; }
+
 .gallery .row > div {
   padding: 0;
   height: 20vw;
@@ -367,12 +369,14 @@ header {
       -moz-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
       transform: rotate(0deg); }
+
 .gallery .row div:hover > img {
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1); }
+
 .gallery .row div:hover .icons .fa {
   z-index: 1; }
   .gallery .row div:hover .icons .fa:hover {
@@ -479,7 +483,7 @@ footer {
         width: 30%;
         height: 2px;
         background: #f4f4f4;
-        content: ""; }
+        content: ''; }
     footer .footer > div table,
     footer .footer > div p {
       color: #f4f4f4;
@@ -524,13 +528,10 @@ footer {
     width: 100%; }
     header > .container > ul > li a {
       padding: 0 10px; }
-
   .ham-menu {
     display: none; }
-
   .benefits > div {
     min-width: 260px; }
-
   .gallery .row .col-20,
   .gallery .row .col-40 {
     width: 25%; }
@@ -538,7 +539,6 @@ footer {
     .gallery .row .col-40 img {
       width: auto;
       height: 20vw; }
-
   .employee > div {
     width: 50%;
     padding: 20px 20px; }
@@ -553,38 +553,31 @@ footer {
         width: 280px;
         height: 280px;
         font-size: 30px; }
-
   .numbers div {
     width: 50%;
     min-width: 200px; }
-
   .promo .container {
     width: 100%; }
-
   footer .container {
     width: 100%; }
     footer .container table tr td:first-of-type {
       padding-right: 5px; } }
+
 @media (min-width: 480px) and (max-width: 767px) {
   header > nav > ul {
     display: none; }
-
   header > .container {
     width: 100%; }
-
   .ham-menu {
     display: block; }
-
   .hero {
     height: 50vw; }
     .hero .slogan {
       margin-top: 10vw; }
       .hero .slogan h1 {
         font-size: 25px; }
-
   .benefits > div {
     min-width: 300px; }
-
   .gallery .row .col-20,
   .gallery .row .col-40 {
     width: 100%;
@@ -593,7 +586,6 @@ footer {
     .gallery .row .col-40 img {
       width: 100%;
       height: auto; }
-
   .employee > div {
     width: 100%;
     padding: 20px 5px; }
@@ -608,11 +600,9 @@ footer {
         width: 300px;
         height: 300px;
         font-size: 30px; }
-
   .numbers div {
     width: 50%;
     min-width: 200px; }
-
   .promo {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://i.imgur.com/QhSMz2u.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://i.imgur.com/QhSMz2u.jpg");
@@ -625,7 +615,6 @@ footer {
         display: none; }
         .promo .container .pad + div {
           width: 100%; }
-
   footer .container {
     width: 100%; }
   footer .footer div {
@@ -633,30 +622,25 @@ footer {
     float: left; }
   footer .footer .social-media {
     text-align: center; } }
+
 @media (max-width: 479px) {
   body {
     overflow-x: scroll;
     min-width: 320px; }
-
   header > nav > ul {
     display: none; }
-
   header > .container {
     width: 100%; }
-
   .ham-menu {
     display: block; }
-
   .hero {
     height: 50vw; }
     .hero .slogan {
       margin-top: 10vw; }
       .hero .slogan h1 {
         font-size: 25px; }
-
   .benefits > div {
     min-width: 300px; }
-
   .gallery .row .col-20,
   .gallery .row .col-40 {
     width: 100%;
@@ -665,7 +649,6 @@ footer {
     .gallery .row .col-40 img {
       width: 100%;
       height: auto; }
-
   .employee > div {
     width: 100%;
     padding: 20px 5px; }
@@ -680,11 +663,9 @@ footer {
         width: 280px;
         height: 280px;
         font-size: 30px; }
-
   .numbers div {
     width: 50%;
     min-width: 200px; }
-
   .promo {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://i.imgur.com/QhSMz2u.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://i.imgur.com/QhSMz2u.jpg");
@@ -697,7 +678,6 @@ footer {
         display: none; }
         .promo .container .pad + div {
           width: 100%; }
-
   footer .container {
     width: 100%; }
   footer .footer div {
